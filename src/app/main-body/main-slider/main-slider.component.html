@@ -1,0 +1,15 @@
+<section class="slider slider-first" [style.background-image]="'url(' + imageurl  + ')'">
+    <div class="slider-contents slider-effect">
+        <h4 class="slider-subtitle">{{subtitle}}</h4>
+        <h1 class="slider-title">{{title}}</h1>
+        <a href="#" class="shop-button">Shop now</a>
+    </div>
+
+    <div class="arrow-left" (click)="toggleHandler()">
+        <i class="fa fa-angle-left"></i>
+    </div>
+
+    <div class="arrow-right" (click)="toggleHandler()">
+        <i class="fa fa-angle-right"></i>
+    </div>
+</section>
