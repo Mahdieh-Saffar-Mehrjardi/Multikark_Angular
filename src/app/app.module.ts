@@ -6,11 +6,19 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { FirstHeaderComponent } from './first-header/first-header.component';
+import { SecondHeaderComponent } from './second-header/second-header.component';
+import { FooterOneComponent } from './footer/footer-one/footer-one.component';
+import { FooterTwoComponent } from './footer/footer-one/footer-two/footer-two.component';
+import { FooterThreeComponent } from './footer/footer-one/footer-two/footer-three/footer-three.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstHeaderComponent
+    FirstHeaderComponent,
+    SecondHeaderComponent,
+    FooterOneComponent,
+    FooterTwoComponent,
+    FooterThreeComponent
   ],
   imports: [
     BrowserModule,

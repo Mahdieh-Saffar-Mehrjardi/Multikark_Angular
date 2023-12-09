@@ -1,0 +1,28 @@
+mat-toolbar{
+    max-width: 1400px;
+    font-size: 14px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto; 
+    padding-right: 27px;
+    padding-left: 8px;
+}
+
+.second-header-left{
+    display: flex;
+    align-items: center;
+    mat-icon{
+        padding: 40px 45px 40px 0;
+        font-weight: 800;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    img{
+        padding: 37px 0;
+        cursor: pointer;
+    }
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
