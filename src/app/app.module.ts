@@ -10,6 +10,8 @@ import { SecondHeaderComponent } from './second-header/second-header.component';
 import { FooterOneComponent } from './footer/footer-one/footer-one.component';
 import { FooterTwoComponent } from './footer/footer-one/footer-two/footer-two.component';
 import { FooterThreeComponent } from './footer/footer-one/footer-two/footer-three/footer-three.component';
+import { MainBodyComponent } from './main-body/main-body.component';
+import { MainSliderComponent } from './main-body/main-slider/main-slider.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FooterThreeComponent } from './footer/footer-one/footer-two/footer-thre
     SecondHeaderComponent,
     FooterOneComponent,
     FooterTwoComponent,
-    FooterThreeComponent
+    FooterThreeComponent,
+    MainBodyComponent,
+    MainSliderComponent
   ],
   imports: [
     BrowserModule,
