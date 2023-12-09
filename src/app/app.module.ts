@@ -13,6 +13,7 @@ import { FooterThreeComponent } from './footer/footer-one/footer-two/footer-thre
 import { MainBodyComponent } from './main-body/main-body.component';
 import { MainSliderComponent } from './main-body/main-slider/main-slider.component';
 import { MainLogoComponent } from './main-body/main-logo/main-logo.component';
+import { MainTimerComponent } from './main-body/main-timer/main-timer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MainLogoComponent } from './main-body/main-logo/main-logo.component';
     FooterThreeComponent,
     MainBodyComponent,
     MainSliderComponent,
-    MainLogoComponent
+    MainLogoComponent,
+    MainTimerComponent
   ],
   imports: [
     BrowserModule,
