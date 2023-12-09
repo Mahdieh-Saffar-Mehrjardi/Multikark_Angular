@@ -12,6 +12,7 @@ import { FooterTwoComponent } from './footer/footer-one/footer-two/footer-two.co
 import { FooterThreeComponent } from './footer/footer-one/footer-two/footer-three/footer-three.component';
 import { MainBodyComponent } from './main-body/main-body.component';
 import { MainSliderComponent } from './main-body/main-slider/main-slider.component';
+import { MainLogoComponent } from './main-body/main-logo/main-logo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MainSliderComponent } from './main-body/main-slider/main-slider.compone
     FooterTwoComponent,
     FooterThreeComponent,
     MainBodyComponent,
-    MainSliderComponent
+    MainSliderComponent,
+    MainLogoComponent
   ],
   imports: [
     BrowserModule,
