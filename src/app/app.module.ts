@@ -14,6 +14,7 @@ import { MainBodyComponent } from './main-body/main-body.component';
 import { MainSliderComponent } from './main-body/main-slider/main-slider.component';
 import { MainLogoComponent } from './main-body/main-logo/main-logo.component';
 import { MainTimerComponent } from './main-body/main-timer/main-timer.component';
+import { MainBannerComponent } from './main-body/main-banner/main-banner.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MainTimerComponent } from './main-body/main-timer/main-timer.component'
     MainBodyComponent,
     MainSliderComponent,
     MainLogoComponent,
-    MainTimerComponent
+    MainTimerComponent,
+    MainBannerComponent
   ],
   imports: [
     BrowserModule,
