@@ -1,0 +1,18 @@
+<div class="footer-three">
+    <div class="footer-three-container">
+        <div class="footer-three-left">
+            <p class="footer-three-text">
+                <i class="fa fa-copyright"></i>
+                2023 theme forest powered by pixelstrap
+            </p>
+        </div>
+        <div class="footer-three-right">
+            <mat-list>
+                <mat-list-item *ngFor="let icon of footerIcons">
+                  <img matListAvatar class="footer-three-icon" [src]="icon.src" alt="{{ icon.alt }}">
+                </mat-list-item>
+            </mat-list>
+        </div>
+    </div>
+</div>
+
